@@ -58,22 +58,22 @@ body {
 
 <a href="/year1" class="card">
 <h3>1 курс</h3>
-<p>Базовые дисциплины</p>
+<p>1 и 2 семестр</p>
 </a>
 
 <a href="/year2" class="card">
 <h3>2 курс</h3>
-<p>Программирование и проекты</p>
+<p>3 и 4 семестр</p>
 </a>
 
 <a href="/year3" class="card">
 <h3>3 курс</h3>
-<p>проекты</p>
+<p>5 и 6 семестр</p>
 </a>
 
 <a href="/year4" class="card">
 <h3>4 курс</h3>
-<p>Курсовые и диплом</p>
+<p>7 и 8 семестр</p>
 </a>
 
 </div>
@@ -83,4 +83,7 @@ body {
 ## Контакты
 
 - GitHub: https://github.com/KorshunAlen  
-- Email: example@mail.com
+- Email: _
+
+
+
