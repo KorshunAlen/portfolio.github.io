@@ -4,7 +4,7 @@ title: Портфолио
 ---
 
 <style>
-body {
+.inner {
     max-width: 700px;
     margin: 0 auto; /* центрирование по горизонтали */
     padding: 20px;  /* внутренние отступы для комфорта */
