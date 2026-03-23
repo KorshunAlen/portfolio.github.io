@@ -4,6 +4,7 @@ title: Портфолио
 ---
 
 <style>
+
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -13,6 +14,27 @@ title: Портфолио
     font-size: 40px;
 }
 
+.nav {
+    position: sticky;
+    top: 0;
+    background: #2c3e50;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+    
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -64,7 +86,14 @@ body {
 
 </style>
 
-<a href="/portfolioo/about" class="card">Обо мне</a>
+<div class="nav">
+  <a href="/portfolioo">Главная</a>
+  <a href="/portfolioo/about">Обо мне</a>
+  <a href="/portfolioo/year1">1 курс</a>
+  <a href="/portfolioo/year2">2 курс</a>
+  <a href="/portfolioo/year3">3 курс</a>
+  <a href="/portfolioo/year4">4 курс</a>
+</div>
 
 <div class="hero">
 
