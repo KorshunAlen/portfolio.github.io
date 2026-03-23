@@ -19,10 +19,7 @@ title: Портфолио
 .hero {
     text-align: center;
     padding: 60px 20px;
-}
-
-.hero h1 {
-    font-size: 40px;
+    font-size: 20px
 }
 
 .nav {
