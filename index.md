@@ -64,6 +64,8 @@ body {
 
 </style>
 
+<a href="/about" class="card">Обо мне</a>
+
 <div class="hero">
 
 <p>Студент IT-направления</p>
@@ -99,6 +101,6 @@ body {
 
 </div>
 
-<a href="/about" class="card">Обо мне</a>
+
 
 
