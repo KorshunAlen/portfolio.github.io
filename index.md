@@ -79,28 +79,24 @@ body {
 
 <div class="cards">
 
-<a href="/year1" class="card">
+<a href="/year1/" class="card">
 <h3>1 курс</h3>
 <p>1 и 2 семестр</p>
 </a>
 
-<a href="/year2" class="card">
+<a href="/year2/" class="card">
 <h3>2 курс</h3>
 <p>3 и 4 семестр</p>
 </a>
 
-<a href="/year3" class="card">
+<a href="/year3/" class="card">
 <h3>3 курс</h3>
 <p>5 и 6 семестр</p>
 </a>
 
-<a href="/year4" class="card">
+<a href="/year4/" class="card">
 <h3>4 курс</h3>
 <p>7 и 8 семестр</p>
 </a>
 
 </div>
-
-
-
-
