@@ -39,7 +39,7 @@ title: Портфолио
     border-radius: 12px;        
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     transition: 0.3s;
 }
 
