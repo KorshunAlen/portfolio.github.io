@@ -17,7 +17,7 @@ title: Портфолио
 .nav {
     position: sticky;
     top: 0;
-    background: #2c3e50;
+    background: white; 
     padding: 15px;
     text-align: center;
     z-index: 1000;
@@ -25,21 +25,19 @@ title: Портфолио
 
 .nav a {
     display: inline-block;
-    background: #2c3e50;
-    color: white;
-    padding: 15px 20px;
+    background: white;        
+    color: black;              
+    padding: 15px 20px;         
     margin: 10px;
-    border-radius: 12px;
+    border-radius: 12px;        
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
 .nav a:hover {
-    background: #1a252f;
-    transform: translateY(-3px);
+    transform: translateY(-3px); 
 }
     
 .cards {
