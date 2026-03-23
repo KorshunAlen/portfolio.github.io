@@ -4,6 +4,44 @@ title: 1 курс
 ---
 
 <style>
+
+.inner {
+    max-width: 1000px;
+    margin: 0 auto; /* центрирование по горизонтали */
+    padding: 20px;  /* внутренние отступы для комфорта */
+    box-sizing: border-box;
+}
+
+/* Чтобы все объекты внутри страницы тоже подстраивались */
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background: white; 
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav a {
+    display: inline-block;
+    background: white;        
+    color: black;              
+    padding: 15px 20px;         
+    margin: 10px;
+    border-radius: 12px;        
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    transform: translateY(-3px); 
+}
+
 .subject {
     background: white;
     padding: 20px;
@@ -13,16 +51,35 @@ title: 1 курс
 }
 </style>
 
-<h1>📘 1 курс</h1>
+<div class="nav">
+  <a href="/portfolioo">Главная</a>
+  <a href="/portfolioo/about">Обо мне</a>
+  <a href="/portfolioo/year1">1 курс</a>
+  <a href="/portfolioo/year2">2 курс</a>
+  <a href="/portfolioo/year3">3 курс</a>
+  <a href="/portfolioo/year4">4 курс</a>
+</div>
+
+<h1>1 курс</h1>
 
 <h2>Предметы</h2>
 
 <div class="subject">
-<h3><a href="/kp/">💻 Компьютерный практикум</a></h3>
-<p>Лабораторные работы по программированию</p>
+<h3><a href="https://drive.google.com/drive/folders/1QGScC5MBf8cjPnTj3DAksgLHG5Owr2ip?usp=sharing">Безопасность жизнедеятельности</a></h3>
 </div>
 
 <div class="subject">
-<h3><a href="/prog/">🧠 Программирование</a></h3>
-<p>Основы разработки</p>
+<h3><a href="https://drive.google.com/drive/folders/18ypfYcafH_9W4qn0sVIy0Zi5kuwZT0Mt?usp=sharing">Информатика</a></h3>
+</div>
+
+<div class="subject">
+<h3><a href="https://drive.google.com/drive/folders/1eK-SfsLOieFx3uMRWNtsN_pEqFv_G9o3?usp=sharing">Информационные технологии в математике</a></h3>
+</div>
+
+<div class="subject">
+<h3><a href="https://drive.google.com/drive/folders/1roHpUjW6WofQwN8vbthB5Vme9ljWZ_0o?usp=sharing">Информационные технологии в физике</a></h3>
+</div>
+
+<div class="subject">
+<h3><a href="https://drive.google.com/drive/folders/1cpHdkpJu_03S2USiAtzQVe5uv9znWbRX?usp=sharing">Основы компьютерной алгебры</a></h3>
 </div>
