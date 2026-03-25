@@ -1,0 +1,60 @@
+---
+layout: default
+title: Обо мне
+---
+
+<style>
+
+body {
+    background: #f4f6f8;
+    font-family: Arial;
+}
+
+.inner {
+    max-width: 1000px;
+    margin: 0 auto; /* центрирование по горизонтали */
+    padding: 20px;  /* внутренние отступы для комфорта */
+    box-sizing: border-box;
+}
+
+/* Чтобы все объекты внутри страницы тоже подстраивались */
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background: white; 
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav a {
+    display: inline-block;
+    background: white;        
+    color: black;              
+    padding: 15px 20px;         
+    margin: 10px;
+    border-radius: 12px;        
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    transform: translateY(-3px); 
+}
+    
+</style>
+
+<div class="nav">
+  <a href="/portfolioo">Главная</a>
+  <a href="/portfolioo/about">Обо мне</a>
+  <a href="/portfolioo/year1">1 курс</a>
+  <a href="/portfolioo/year2">2 курс</a>
+  <a href="/portfolioo/year3">3 курс</a>
+  <a href="/portfolioo/year4">4 курс</a>
+</div>
+
